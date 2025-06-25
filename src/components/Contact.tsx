@@ -1,7 +1,7 @@
 import { Card } from "primereact/card"
 import { Divider } from "primereact/divider"
 
-export const Contact = () =>{
+function Contact () {
     return(
         <div className="p-d-flex p-jc-center p-ai-center p-mt-5" style={{display:'flex', justifyContent:'center', alignItems:'center', textAlign:'center'}}>
             <Card title="Contato" subTitle="Fale conosco" style={{width:'50vw'}}>
@@ -13,3 +13,5 @@ export const Contact = () =>{
         </div>
     )
 }
+
+export default Contact;

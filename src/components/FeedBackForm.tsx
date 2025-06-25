@@ -6,9 +6,9 @@ import { InputTextarea } from 'primereact/inputtextarea';
 import 'primeicons/primeicons.css';
 import 'primereact/resources/themes/lara-light-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 
-export const FeedBackForm = () =>{
+function FeedBackForm (){
 
     const[value, setValue] = useState('');
     const[email, setEmail] = useState('');
@@ -72,3 +72,4 @@ export const FeedBackForm = () =>{
         </div>
     )
 }
+export default FeedBackForm;
