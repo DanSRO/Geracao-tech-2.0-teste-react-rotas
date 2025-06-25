@@ -1,0 +1,20 @@
+.login-container{
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.login-title{
+    text-align: center;
+    margin-bottom: 1.5rem;    
+}
+
+.password-toogle{
+    margin-top: 1rem;
+    text-align: right;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #004ad9;
+}

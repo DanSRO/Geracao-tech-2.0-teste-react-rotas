@@ -1,0 +1,29 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+}
+
+.layout-main{
+    flex: 1;
+    /* min-height: 0; */
+}
+
+.layout-wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.p-menubar a{
+    color:white;
+}
+
+body .custom-menubar .p-menuitem-text,
+body .custom-menubar .pi {
+    color: black !important;
+}

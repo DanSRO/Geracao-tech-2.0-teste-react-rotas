@@ -1,12 +1,13 @@
-import { Footer } from "../components/Footer"
-import { Header } from "../components/Header"
+import { Footer } from "../components/Footer";
+import { Header } from "../components/Header";
+import './index.css';
 
 export const Layout = ({children}:any) =>{
     return(
-        <>
+        <div className="layout-wrapper">
             <Header/>
-            {children}
+            <main className="layout-main">{children}</main>
             <Footer/>
-        </>
+        </div>
     )
 } 

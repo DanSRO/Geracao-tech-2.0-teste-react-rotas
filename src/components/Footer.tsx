@@ -1,5 +1,5 @@
 import { Button } from 'primereact/button';
-import { Divider } from 'primereact/divider';        
+import { Divider } from 'primereact/divider';
         
 export const Footer = () =>{    
     return(
